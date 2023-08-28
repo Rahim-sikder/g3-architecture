@@ -1,0 +1,69 @@
+/* work sans font from google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400&family=Open+Sans:wght@400;700;800&family=Work+Sans:wght@400;500;600;700;800&display=swap');
+
+/* shared styles */
+* {
+    font-family: 'Lato', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+    margin: 0px;
+}
+.section-title{
+   font-size: 2.8rem;
+   font-weight: 700;
+   color: #131313;
+}
+.text-light-gray {
+   color: #727272;
+}
+.btn-primary{
+   border-radius: 8px;
+   padding: 5px 10px;
+   background: #FF900E;
+   font-size: 1.5rem;
+   color:#fff;
+   border: 0px;
+   margin-top: 10px;
+}
+
+/* header start */
+header{
+   background-color:rgb(239, 233, 224);
+   padding: 30px 240px;
+}
+nav{
+   display: flex;
+   justify-content:space-between;
+   align-items: center;
+}
+nav>ul{
+   display: flex;
+}
+nav li{
+   list-style: none;
+   font-weight: 500px;
+   font-size: 1rem;
+   margin-right: 30px;
+}
+nav a{
+   text-decoration: none;
+   color: #424242;
+}
+/* banner content*/
+.banner-title{
+   font-size: 4rem;
+   font-weight: 700;
+   color: #131313;
+   margin-top: 100px;
+   margin-bottom: 10px;
+   
+}
+.banner-content{
+   text-align: center;
+   width: 862px;
+   margin: 10px auto;
+}
+.banner img{
+   margin-top: 20px;
+   width: 100%;
+}
