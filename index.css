@@ -120,3 +120,36 @@ main {
    margin-right:30px;
 
 }
+/* facts */
+.facts{
+   margin-top: 30px;
+}
+.facts-card-container{
+   display: flex;
+   justify-content: space-around;
+   margin-left: 10px;
+   
+   
+}
+.facts-card-container .card{
+   margin-top: 30px;
+   border-radius: 8px;
+   border: 1px solid #FF900E;
+   text-align: center;
+   padding: 30px;
+}
+
+/* sponsors */
+.sponsors{
+   margin-top: 90px;
+   text-align: center;
+}
+.sponsor-container-img{
+   display: flex;
+   justify-content: space-evenly;
+   gap: 40px;
+   margin-top: 50px;
+}
+.sponsors-container-img img{
+   width: 165px;
+}
