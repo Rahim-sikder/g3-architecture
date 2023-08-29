@@ -10,7 +10,7 @@
 }
 .section-title{
    font-size: 2.8rem;
-   font-weight: 700;
+   font-weight: 700px;
    color: #131313;
 }
 .text-light-gray {
@@ -152,4 +152,16 @@ main {
 }
 .sponsors-container-img img{
    width: 165px;
+}
+/* footer */
+/* .foot{
+   background-color: antiquewhite;
+   height: 20px;
+} */
+.text{
+   text-align: center;
+   padding: 30px;
+   background-color: antiquewhite;
+   margin: 50px 200px;
+   
 }
